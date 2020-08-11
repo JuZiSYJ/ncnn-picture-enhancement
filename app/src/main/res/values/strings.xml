@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">picture</string>
+    <string-array name="style_array">
+        <item>Aodnet-opt</item>
+        <item>UNet_8-opt</item>
+    </string-array>
+</resources>
