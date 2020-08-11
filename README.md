@@ -14,11 +14,11 @@ A simple demo to run dehaze / underwater model in Android
 ## Results
 - AON-Net
 
-<img src="pic/aodnet.jpg" width="50%" height="50%">
+<img src="pic/aodnet.jpg" width="30%" height="30%">
 
 - UNet
 
-<img src="pic/Unet.jpg" width="50%" height="50%">
+<img src="pic/Unet.jpg" width="30%" height="30%">
 
 
 ## Time cost
@@ -31,5 +31,5 @@ using Xiaomi, 845cpu
 
 ## Reference
 - [ncnn](https://github.com/Tencent/ncnn)
-- [AOD-Net](https://github.com/MayankSingal/PyTorch-Image-Dehazing)：
+- [AOD-Net](https://github.com/MayankSingal/PyTorch-Image-Dehazing)
 - [UWGAN](https://github.com/infrontofme/UWGAN_UIE)
