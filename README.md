@@ -16,9 +16,9 @@ A simple demo to run dehaze / underwater model in Android
 
 <img src="pic/aodnet.jpg" width="30%" height="30%">
 
-- UNet
+- UNet(model is already update, old version is pic/Unet.jpg)
 
-<img src="pic/Unet.jpg" width="30%" height="30%">
+<img src="pic/3.jpg" width="30%" height="30%">
 
 
 ## Time cost
