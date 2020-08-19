@@ -80,8 +80,8 @@ JNIEXPORT jboolean JNICALL Java_com_example_picture_Waterdemo_Init(JNIEnv* env, 
 
     AAssetManager* mgr = AAssetManager_fromJava(env, assetManager);
 
-    const char* param_paths[2] = {"Aodnet-opt.param", "UNet_8-opt.param"};
-    const char* model_paths[2] = {"Aodnet-opt.bin", "UNet_8-opt.bin"};
+    const char* param_paths[3] = {"Aodnet-opt.param", "UNet_0.5_8-opt.param","GLADsim-opt.param"};
+    const char* model_paths[3] = {"Aodnet-opt.bin", "UNet_0.5_8-opt.bin","GLADsim-opt.bin"};
 
     for (int i=0; i<2; i++)
     {
@@ -129,7 +129,12 @@ JNIEXPORT jboolean JNICALL Java_com_example_picture_Waterdemo_Detect(JNIEnv* env
         width2 -= (width2 % 16);  // Unet input must be 16x
         height2 -= (height2 % 16);
     }
-
+    
+    if (style_type == 2)
+    {
+        width2 = 640;  // Unet input must be 480*640
+        height2 = 480;
+    }
     __android_log_print(ANDROID_LOG_DEBUG, "waterdemo", "new h %d w %d ",width2, height2);
     // ncnn from bitmap
     ncnn::Mat in = ncnn::Mat::from_android_bitmap_resize(env, bitmap, ncnn::Mat::PIXEL_RGB, width2 , height2 );
