@@ -3,5 +3,6 @@
     <string-array name="style_array">
         <item>Aodnet-opt</item>
         <item>UNet_8-opt</item>
+        <item>GLADNet-opt</item>
     </string-array>
 </resources>
