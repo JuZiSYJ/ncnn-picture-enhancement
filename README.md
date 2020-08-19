@@ -4,6 +4,7 @@ A simple demo to run dehaze / underwater model in Android
 ## Curretly Implemented:
 - [AOD-Net](https://github.com/MayankSingal/PyTorch-Image-Dehazing)：dehaze
 - [UWGAN](https://github.com/infrontofme/UWGAN_UIE) :underwater enhancement
+- [GLADNet](https://github.com/weichen582/GLADNet) :low light enhancement
 
 ## Need to do
 - git clone
@@ -20,6 +21,9 @@ A simple demo to run dehaze / underwater model in Android
 
 <img src="pic/3.jpg" width="30%" height="30%">
 
+- GLADNet
+
+<img src="pic/gladnet.jpg" width="30%" height="30%">
 
 ## Time cost
 using Xiaomi, 845cpu
@@ -28,6 +32,7 @@ using Xiaomi, 845cpu
 | :-----| :---: | :----: |
 | AODNet(800*500) | 200ms |  |
 | UNet(400*550) |  | 150ms |
+| GLADNet(640*480) |  | 600ms |
 
 ## Reference
 - [ncnn](https://github.com/Tencent/ncnn)
