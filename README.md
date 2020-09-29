@@ -11,6 +11,7 @@ A simple demo to run dehaze / underwater model in Android
 - download ncnn libs for [Android](https://github.com/Tencent/ncnn/releases/tag/20200616)
 - put the libs in **src/main/cpp/ncnn-android-vulkan**
 - models  are already provided in **assets**
+- apk(https://pan.baidu.com/s/1c6ArUPwIeWiHinANNqfuLg) vr23
 
 ## Results
 - AON-Net
